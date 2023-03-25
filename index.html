@@ -9,6 +9,8 @@
     	body, html {
      height: 100%;
      font-family: sans-serif;
+     margin: 0;
+     padding: 0;
 				}
 .hero-image {
   background-image: url("pictures/bg_header.jpeg");
@@ -26,17 +28,51 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+main {
+	height: 100%;
+	margin-top: -60px;
+}
+#navmain {
+	height: 60px;
+	z-index: 10;
+}
+#navmain	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+	#navmain li {
+		display: inline-block;
+		padding: 20px 30px;
+	}
+	#navmain a {
+		text-decoration: none;
+		font-size: 1.2em;
+		font-weight: 300;
+		z-index: 10;
+	}
     </style>
 </head>
 
 <body>
 	<header>
+		<div id="navmain">
+			 <ul>
+			 	<li><a href="#">Home</a></li>
+			 	<li><a href="#">Aktuelles</a></li>
+			 	<li><a href="#">Kontakt</a></li>
+			 	<li><a href="#">Über uns</a></li>
+			 </ul>
+		</div>
+	</header>
+	<main>
  <div class="hero-image">
  	<div class="hero-text">
  		<h1>Meine erste Website</h1>
  	</div>
  </div>
- </header>
+ </main>
 </body>
 
 </html>
