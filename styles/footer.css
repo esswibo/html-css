@@ -1,0 +1,21 @@
+footer {
+	padding: 70px 0;
+	background-color: var(--secondary-color); 
+}
+footer h2 {
+	font-size: 50px;
+	text-align: center;
+}
+.grid_container {
+	margin: 60px auto;
+	width: 1500px;
+	background: grey;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows:300px 300px;
+	gap: 15px;
+}
+.grid_item {
+	background-color: var(--light-secondary-color);
+	
+}
