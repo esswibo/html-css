@@ -19,12 +19,12 @@ header {
 	align-items: center;
 }
 .circle img {
-		width: 100%;
+	width: 100%;
 }
 nav {
 	margin-bottom: 120px;
 }
-na ul {
+nav ul {
 	list-style: none;
 	display: flex;
 	gap: 20px;
