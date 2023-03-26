@@ -30,25 +30,30 @@ footer h2 {
 	height: 150px;
 	width: 150px;
 }
+/*  instagram  */
 #item1 {
 	grid-area: item1;
 }
+/*  telegram  */
 #item2{
 	grid-area: item2;
 	flex-direction: column;
 	gap: 150px;
 }
+/*  kontakt  */
 #item3 {
 	grid-area: item3;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
+/*  twitter  */
 #item4 {
 	grid-area: item4;
 	flex-direction: column;
 	gap: 150px;
 }
+/*  youtube  */
 #item5 {
 	grid-area: item5;
 }
@@ -60,7 +65,6 @@ footer h2 {
 			"item1 item1 item2"
 			"item4 item5 item5"
 			"item3 item3 item3";
-		
 	}
 }
 @media(max-width: 900px) {
@@ -92,11 +96,5 @@ footer h2 {
 	.grid-container {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto auto;
-
-		grid-template-areas:
-			"item1 item1"
-			"item5 item5"
-			"item2 item4"
-			"item3 item3";
 	}
 }
