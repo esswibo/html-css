@@ -32,7 +32,15 @@ nav ul {
 nav a {
 	color: var(--secondary-text-color);
 	text-decoration: none;
+	position: relative;
 }
 nav a:hover {
 	color: var(--text-color);
+}
+nav a::after {
+content:'';
+	height: 2px;
+	width: 100%;
+	background: var(--main-brand-color);
+	position: absolute;
 }
