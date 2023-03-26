@@ -63,8 +63,14 @@ label[for="toggle_button"] span {
 	font-size: 40p;
 }
 @media(max-width:800px) {
+		nav {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 		nav ul {
 			display: none;
+			flex-direction: column;
 		}
 		#toggle_button:checked ~ ul {
 			display: flex;
