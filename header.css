@@ -21,3 +21,18 @@ header {
 .circle img {
 		width: 100%;
 }
+nav {
+	margin-bottom: 120px;
+}
+na ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+nav a {
+	color: var(--secondary-text-color);
+	text-decoration: none;
+}
+nav a:hover {
+	color: var(--text-color);
+}
