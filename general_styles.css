@@ -28,3 +28,8 @@ h1 {
 		color: var(--secondary-text-color);
 }
 
+@media(max-width: 800px) {
+		h1 {
+			font-size: 12vw;
+		}
+}
