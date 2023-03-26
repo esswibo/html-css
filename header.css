@@ -4,6 +4,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	gap: 50px;
+	flex-wrap: wrap;
 }
 .header_text {
 	width: 850px;
@@ -11,6 +12,8 @@ header {
 .circle {
 	height: 600px;
 	width: 600px;
+	max-height: 80vw;
+	max-width: 80vw;
 	overflow: hidden;
 	border-radius: 50%;
 	border: 20px solid var(--main-brand-color);
@@ -33,6 +36,7 @@ nav a {
 	color: var(--secondary-text-color);
 	text-decoration: none;
 	position: relative;
+	padding: 3px;
 }
 nav a:hover {
 	color: var(--text-color);
@@ -40,9 +44,12 @@ nav a:hover {
 nav a::after {
 	content:'';
 	height: 2px;
-	width: 100%;
+	width: 0;
 	background: var(--main-brand-color);
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+nav a:hover::after {
+	width: 100%;
 }
