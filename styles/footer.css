@@ -71,7 +71,6 @@ footer h2 {
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto auto auto;
-		
 		grid-template-areas:
 			"item1 item1"
 			"item5 item5"
