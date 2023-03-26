@@ -78,9 +78,9 @@ label[for="toggle_button"] span {
 		}
 		#toggle_button:checked ~ ul {
 			display: flex;
+			transition: 1200ms ease-in-out;
 		}
 		label[for="toggle_button"] span {
 			display: block;
-			transition: 1200ms ease-in-out;
 		}
 }
