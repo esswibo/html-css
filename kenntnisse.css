@@ -9,6 +9,7 @@
 .flex_container {
 	display: flex;
 	gap: 40px;
+	justify-content: center;
 }
 .card {
 	width: 350px;
