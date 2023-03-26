@@ -57,6 +57,9 @@ nav a:hover::after {
 	display: none;
 }
 label[for="toggle_button"] span {
+	display: none;
+}
+label[for="toggle_button"] span {
 	font-size: 40p;
 }
 @media(max-width:800px) {
@@ -65,5 +68,8 @@ label[for="toggle_button"] span {
 		}
 		#toggle_button:checked ~ ul {
 			display: flex;
+		}
+		label[for="toggle_button"] span {
+			display: block;
 		}
 }
