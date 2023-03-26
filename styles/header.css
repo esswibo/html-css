@@ -81,6 +81,6 @@ label[for="toggle_button"] span {
 		}
 		label[for="toggle_button"] span {
 			display: block;
-			transition: 200ms ease-in-out;
+			transition: 1200ms ease-in-out;
 		}
 }
