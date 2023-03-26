@@ -58,7 +58,7 @@ footer h2 {
 	grid-area: item5;
 }
 @media(max-width: 1300px) {
-	.grid-container{
+	.grid_container{
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows:300px 300px 300px;
 		grid-template-areas:
@@ -68,7 +68,7 @@ footer h2 {
 	}
 }
 @media(max-width: 900px) {
-	.grid-container {
+	.grid_container {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto auto auto;
 		grid-template-areas:
@@ -82,17 +82,17 @@ footer h2 {
 	footer h2 {
 		font-size: 9vw;
 	}
-	.grid-item {
+	.grid_item {
 		padding: 20px;
 	}
 	.grid_item img {
 		height: 100px;
 		width: 100px;
 	}
-.grid_item h3 {
+	.grid_item h3 {
 		font-size: 24px;
 	}
-	.grid-container {
+	.grid_container {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto auto;
 	}
