@@ -75,3 +75,28 @@ footer h2 {
 			"item3 item3";
 	}
 }
+@media(max-width: 600px) {
+	footer h2 {
+		font-size: 9vw;
+	}
+	.grid-item {
+		padding: 20px;
+	}
+	.grid_item img {
+		height: 100px;
+		width: 100px;
+	}
+.grid_item h3 {
+		font-size: 24px;
+	}
+	.grid-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto auto;
+
+		grid-template-areas:
+			"item1 item1"
+			"item5 item5"
+			"item2 item4"
+			"item3 item3";
+	}
+}
