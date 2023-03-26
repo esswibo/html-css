@@ -31,5 +31,9 @@ h1 {
 @media(max-width: 800px) {
 		h1 {
 			font-size: 12vw;
+			text-align: center;
+		}
+		.subheading {
+			text-align: center;
 		}
 }
