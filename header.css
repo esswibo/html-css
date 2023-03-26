@@ -56,6 +56,9 @@ nav a:hover::after {
 #toggle_button {
 	display: none;
 }
+label[for="toggle_button"] span {
+	font-size: 40p;
+}
 @media(max-width:800px) {
 		nav ul {
 			display: none;
