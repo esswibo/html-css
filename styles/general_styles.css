@@ -47,12 +47,12 @@ h1 {
 	padding: 1rem;
 	color: white;
 	font-weight: 700;
-	opacity: .3;
 }
 
-.scroll_top_link:hover {
+/*.scroll_top_link:hover {
 	opacity: initial;
 }
+*/
 
 /*  media queries  */
 @media(max-width: 800px) {
