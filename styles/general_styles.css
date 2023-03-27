@@ -35,13 +35,19 @@ h1 {
   top: 120vh; /* starts below the bottom of the screen */
   bottom: 3rem; /* stops scrolling before the end */
   right: 2rem; /* offset from right hand side */
+  float: right;
+  background-color: var(--main-brand-color);
+  padding: 10px 10px 40px 10px;
+  border-radius: 10%;
 }
-
-.scroll_top_link {
+.scroll_top__link {
   position: -webkit-sticky; /* for Safari */
   position: sticky; /* 'relative' until element reaches... */
   top: 90vh; /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */
+ 
 }
+
+/*  media queries  */
 @media(max-width: 800px) {
 		h1 {
 			font-size: 12vw;
