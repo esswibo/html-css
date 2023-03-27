@@ -12,6 +12,9 @@
  	margin: 0;
 	 padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
 	min-height: 100vh;
 	background-color: var(--primary-color);
@@ -27,7 +30,18 @@ h1 {
 		margin-top: 25px;
 		color: var(--secondary-text-color);
 }
+.scroll-top {
+  position: absolute; /* relative to its positioned <main> parent */
+  top: 120vh; /* starts below the bottom of the screen */
+  bottom: 3rem; /* stops scrolling before the end */
+  right: 2rem; /* offset from right hand side */
+}
 
+.scroll-top__link {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky; /* 'relative' until element reaches... */
+  top: 90vh; /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */
+}
 @media(max-width: 800px) {
 		h1 {
 			font-size: 12vw;
